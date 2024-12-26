@@ -4,265 +4,213 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Junmin Wang
+    tagline: "Computational Biologist | Data Science, Machine Learning, AI"
+    avatar: junmin_photo_cropped.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: example@email.com
-    phone: 012 345 6789
-    timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+    email: jmwang.bio@gmail.com
+    #phone: 012 345 6789
+    timezone: America/New_York # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
     citizenship:
-    website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-    linkedin: alandoe
-    xing: alandoe
-    github: jekyll
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@jekyllrb'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    mastodon:  # Please include your full Mastodon link here.
-    hackerrank: # Please provide your HackerRank username.
-    leetcode: # Please provide your LeetCode username.
-    pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+    #website: https://example.com/ # Include the full website URL, including "http://" or "https://".
+    #linkedin: alandoe
+    #xing: alandoe
+    github: JmWangBio
+    #telegram: # add your nickname without '@' sign
+    #gitlab:
+    #bitbucket:
+    #twitter: '@jekyllrb'
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+    #codewars:
+    #goodreads: # Number-Username, e.g. 123456-alandoe
+    #mastodon:  # Please include your full Mastodon link here.
+    #hackerrank: # Please provide your HackerRank username.
+    #leetcode: # Please provide your LeetCode username.
+    #pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Chinese
           level: Native
 
-        - idiom: French
+        - idiom: English
           level: Professional
 
-        - idiom: Spanish
-          level: Professional
+        - idiom: French
+          level: Intermediate
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Sports and Fitness
           link:
 
-        - item: Snowboarding
+        - item: Music
           link:
 
         - item: Cooking
           link:
 
 career-profile:
-    title: Career Profile
+    title: About Me
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Originally a math major, I trained with **Dr. Calin Belta** (BU) and **Dr. Ron Weiss** 
+      (MIT), earning my doctorate degree in bioinformatics from Boston University.
+      After completing my postdoctoral research at University of Southern California, I joined 
+      AstraZeneca as a bioinformatics scientist to further my career in biomedical research. 
+      My primary research focuses on pipeline **automation**, application of **statistical** methods to omics 
+      data analysis, as well as **machine learning** and **artificial intelligence** to stratify patients, 
+      predict drug-target interactions, and assess drug toxicity.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: PhD in Bioinformatics
+        university: Boston University
+        time: 2014 - 2019
 
 experiences:
-    title: Experiences
+    title: Project Highlights
+    img: piechart.png
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: DOSE-L1000
+        time: 2023 - 2024
+        company: AstraZeneca, Waltham
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          1) Developed generalized additive models (a type of **statistical learning**) 
+          to calculate the estimates and standard errors of gene expression changes, 
+          efficacy, and potency across 33,395 compounds, 82 cell lines, and 978 genes.
+          
+          2) Designed DOSE-L1000, an **SQL**-based database and DOSE-L1000-Viz, a **Shiny**-based 
+          application to visualize and analyze compound-induced transcriptional changes and 
+          dose-response data.
+          
+          3) Leveraged **random forests** and **neural networks** to predict drug-target 
+          interactions and organ-specific drug toxicity from drug-induced expression changes.
+            - Keywords: <span style="color: purple;">Transcriptomics</span>, Machine Learning
+            - GitHub: [https://github.com/JmWangBio/DoseL1000](https://github.com/JmWangBio/DoseL1000)
+            - Website: [https://dosel1000.com](https://dosel1000.com)
+            - Publication: Wang J., Novick S., "DOSE-L1000: Unveiling the Intricate Landscape of 
+            Compound-Induced Transcriptional Changes." *Bioinformatics*, 2023, 39(11): btad683. 
+            doi: [10.1093/bioinformatics/btad683](https://pubmed.ncbi.nlm.nih.gov/37952162/)
+      - role: ComBat-met
+        time: 2023 - Present
+        company: AstraZeneca, Waltham
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          1) Developed ComBat-met, a beta regression framework as an R package, to adjust 
+          batch effects in DNA methylation data.
+          
+          2) Utilized **neural networks** to predict breast cancer subtypes from **TCGA** methylation data, 
+          following batch-effect adjustment using ComBat-met.
+            - Keywords: <span style="color: blue;">Epigenetics</span>, Statistics, Software Development
+            - GitHub: [https://github.com/JmWangBio/ComBatMet](https://github.com/JmWangBio/ComBatMet)
+            - Preprint: Wang J, "ComBat-met: Adjusting Batch Effects in DNA Methylation Data." *bioRxiv*, 2024. 
+            doi: [10.1101/2024.08.13.607838](https://www.biorxiv.org/content/10.1101/2024.08.13.607838v1)
+      - role: COPD
+        time: 2021 - present
+        company: AstraZeneca, Waltham
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+          1) Performed denoising, taxonomic classification, diversity estimation, and differential abundance 
+          analysis to characterize the respiratory microbiome and mycobiome of COPD patients, linking microbial 
+          changes to host **immune** responses.
+        
+          2) Utilized **linear mixed models** to identify differentially expressed transcripts, proteins, 
+          metabolites, and lipids in COPD patients.
+          
+          3) Performed weighted gene-coexpression network analysis (**WGCNA**) of BAL fluid macrophages to 
+          elucidate mechanisms of surfactant dysregulation.
+          
+          4) Employed **elastic net**, **support vector machines**, and **neural networks** to predict COPD 
+          status and severity from molecular profiling data.
+          
+            - Keywords: <span style="color: #B88B4A;">Microbiome</span>, 
+            <span style="color: purple;">Transcriptomics</span>, 
+            <span style="color: red;">Proteomics</span>, 
+            <span style="color: orange;">Metabolomics</span>,
+            Statistics, Machine Learning
+            - Publication: Hristova et al., "Multiomics Links Global Surfactant Dysregulation with Airflow 
+            Obstruction and Emphysema in COPD." *ERJ Open Res*, 9(3): 00378-2022. 
+            doi: [10.1183/23120541.00378-2022](https://pubmed.ncbi.nlm.nih.gov/37228288/)
+      - role: Peptide Set Test
+        time: 2021 - 2024
+        company: AstraZeneca, Waltham
+        details: |
+          1) Developed PepSetTest, a peptide-centric method as a **Bioconductor** R package, to infer 
+          differentially expressed proteins based on coordinated changes of peptides.
+          
+          2) Validated PepSetTest and identified protein signatures of tamoxifen-resistant breast cancer 
+          using data from **TCGA**/**CPTAC**.
+            - Keywords: <span style="color: red;">Proteomics</span>, Statistics, Software Development
+            - GitHub: [https://github.com/JmWangBio/PepSetTest](https://github.com/JmWangBio/PepSetTest)
+            - Publication: Wang J., Novick S., "Peptide Set Test: a Peptide-Centric Strategy to Infer 
+            Differentially Expressed Proteins." *Bioinformatics*, 2024, 40(5): btae270. 
+            doi: [10.1093/bioinformatics/btae270](https://pubmed.ncbi.nlm.nih.gov/38632081/)
+      - role: upFBA
+        time: 2020 - 2022
+        company: University of Southern California, Los Angeles
+        details: |
+          Developed unsteady-state parsimonious flux balance analysis, leveraging **Gurobi** optimization, 
+          to infer metabolic fluxes in cancer cells influenced by cancer-associated fibroblasts.
+            - Keywords: <span style="color: orange;">Metabolomics</span>, Optimization, Software Development
+            - GitHub: [https://github.com/FinleyLabUSC/CRC-Cell-Constraint-Based-Metabolic-Model](https://github.com/FinleyLabUSC/CRC-Cell-Constraint-Based-Metabolic-Model)
+            - Publication: Wang J., "Elucidating Tumor-Stromal Metabolic Crosstalk in Colorectal Cancer 
+            through Integration of Constraint-Based Models and LC-MS Metabolomics." *Metab Eng*, 2022, 69: 175-187. 
+            doi: [10.1016/j.ymben.2021.11.006](https://pubmed.ncbi.nlm.nih.gov/34838998/)
+      - role: Organoid Engineering
+        time: 2021 - present
+        company: Boston University & MIT, Boston & Cambridge
+        details: |
+          1) Applied **machine learning** and **artificial intelligence** to model temporal and **spatial** patterns in 
+          organoid formation, enabling the prediction of cellular behavior.
+          
+          2) Directed the analysis of bulk RNA-seq data to validate the intended target effects and identify potential 
+          off-target effects of a synthetic circuit in CHO cells.
+          
+          3) Led the analysis of **single-cell** RNA-seq data to nominate candidate driver genes of hepatic development.
+            - Keywords: <span style="color: purple;">Transcriptomics</span>, 
+            <span style="color: purple;">Single-Cell Transcriptomics</span>, 
+            Machine Learning
+            - Publication: Caliendo et al., "Customizable Gene Sensing and Response without Altering Endogenous Coding Sequences." *Nat Chem Biol*, 2024. 
+            doi: [10.1038/s41589-024-01733-y](https://pubmed.ncbi.nlm.nih.gov/39266721/)
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
+      - name: R & Shiny
+        level: 98%
+
       - name: Python & Django
         level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+        
+      - name: TensorFlow & Sklearn
+        level: 95%
+        
+      - name: AWS & SLURM
         level: 95%
 
-      - name: Ruby on Rails
+      - name: SQL
+        level: 90%
+        
+      - name: Docker & Singularity
         level: 85%
+        
+      - name: Nextflow & Snakemake
+        level: 85%
+        
+      - name: MATLAB
+        level: 80%
 
-      - name: Sketch & Photoshop
+      - name: Julia
         level: 60%
+        
+      - name: HTML5 & CSS & Javascript
+        level: 50%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

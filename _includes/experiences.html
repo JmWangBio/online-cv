@@ -31,6 +31,10 @@
 
   </div><!--//item-->
   {% endfor %}
+  
+  {% if experiences.img %}
+  	<img src="{{ site.baseurl }}/assets/images/{{ experiences.img }}" width="600" alt="project summary"/>  
+  {% endif %}
 
 </section><!--//section-->
 {% endif %}
